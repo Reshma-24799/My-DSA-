@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/merge-sorted-array/
 
-//time: O(N)
-//space: O(N)
+//time: O(m+n)
+//space: O(n)
 
 
 // function mergeSortedArray(nums1,m,nums2,n){
