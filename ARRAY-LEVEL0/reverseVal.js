@@ -18,5 +18,20 @@ function reverse(n){
     }
     return r ;
 }
-console.log(reverse(12321)); 
+
+
 console.log(reverse(-12345)); 
+
+// function reverse(s){
+//     if(s.length === 0) return 0;
+//     let i = s.length-1;
+//     for(let j =0;j<s.length/2;j++){
+//         let temp = s[j];
+//         s[j] = s[i];
+//         s[i] = temp;
+//         i--;
+//     }
+//     return s;
+// }
+// console.log(reverse(['h','e','l','l'])); 
+
